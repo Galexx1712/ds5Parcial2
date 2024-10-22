@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcionamiento de Base Datos Relacional</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Base de Datos Relacional</h1>
+        </header>
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li><a href="BDRelacional.html">Definición</a></li>
+                        <li><a href="Caracteristicas.html">Caracteríticas</a></li>
+                        <li><a href="Funcionamiento.html">Funcionamiento</a></li>
+                        <li><a href="Estructura.html">Estructura</a></li>
+                        <li><a href="Ventajas.html">Ventajas</a></li>
+                        <li><a href="Desventajas.html">Desvenjatas</a></li> 
+                        <li><a href="Creador.html">Creador</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="contenido">
+                        <h1>¿Cómo funcionan?</h1>                        
+                        <p>En las bases de datos relacionales, las tablas están relacionadas entre sí y han sido previamente establecidas (es decir, se debe diseñar previamente su estructura). Como ya hemos comentado, dentro de cada tabla hay un conjunto de datos o registros recogidos en columnas y filas. De manera que la relación entre una tabla principal y otra tabla subordinada se establece por medio las claves primaria o ajenas que se hayan establecido. Es a través de las claves por las que se hacen las relaciones</p>
+
+                        <div id="ImgCaract">
+                            <img src="Imagenes/Funcionamiento.jpg" alt="Funcionamiento la Base de Datos Relacional" width="650px" height="400px">
+                         </div>
+                        <p>Por ejemplo, si en la tabla de empleados el ID es ID_e y nuestra empresa facilita una tablet a cada empleado, tendremos otra tabla que recogerá los datos de las tablets con una ID_t. Si incluimos la clave primaria de la tabla de las tablets (ID_t) como clave ajena en la tabla de los empleados, pondremos en relación ambas tablas, pudiendo ver qué tablet tiene cada empleado.</p>
+                        <p>Gracias a las sentencias JOIN de SQL, es posible consultar varias tablas de datos de manera simultánea.</p>
+                        <p>Además, existen claves índices que permiten acceder de manera más rápida a determinados datos, pudiendo tener diferentes combinaciones para consultar algunos datos o dato en concreto.</p>
+                        <p>Finalmente, las relaciones que se pueden establecer entre los diferentes elementos de dos tablas en una base de datos relacional pueden se de tres tipos:</p>
+                        <ul>
+                            <li>Relaciones uno a uno cuando se establecen entre una entidad de una tabla y otra entidad de otra tabla.</li>
+                            <li>Relaciones uno a varios cuando se establecen entre varias entidades de una tabla y una entidad de otra tabla.</li>
+                            <li>Relaciones varios a varios cuando se establecen entre varias entidades de cada una de las tablas.</li>
+                        </ul>
+            </div>
+            <div class="footer">
+                <footer>
+                    <p class="centrar">© 2024 Base de Datos Relacional, por Grace Sánchez, 8-1033-2489. Todos los derechos reservados.</p>
+                </footer>
+            </div>
+    </div>
+</body>
+</html>

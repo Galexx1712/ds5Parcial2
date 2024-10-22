@@ -1,0 +1,116 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top,  #1F4E79,#66BFBF); 
+}
+.contenedor{
+    padding: 3%;
+    margin: 5% auto;
+    max-width: 980px;
+    background-color: #ffffff;
+}
+header{
+    font-size: 30px;
+    text-align: center;
+}
+.navbar{
+    width: 100%;
+    max-width: 990px;
+    background-color: #373B44;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 auto;
+}
+.navbar ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.navbar li{
+    padding: 15px 10px;
+ }
+ .navbar a{
+     color: white;
+     text-transform: uppercase;
+     text-decoration: none;
+     padding: 10px 12px;
+     transition: background-color 0.3s;
+ }
+ a:hover{
+    background-color: #91EAE4;
+    color: #373B44;
+    border-radius: 5px;
+
+}
+ .contenido{
+    margin: 0;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+#ImgBDR{
+    text-align: center;
+}
+#ImgBDR img{
+    width: 90%;
+    height: auto;
+}
+p{
+    text-align: justify;
+    padding: 10px;
+}
+.centrar{
+    text-align: center;
+}
+.footer{
+    background-color: #2e2e2e;
+    color: white;
+    width: 100%;
+    margin: 0;
+}
+
+
+ @media(max-width:768px){
+    .navbar{
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .navbar ul{
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar li{
+        text-align: center;
+        width: 100%;
+    }
+    .navbar a{
+        border-right: none;
+    }
+}
+
+/*Página Caracteristicas*/
+#ImgCaract{
+    text-align: center;
+}
+#ImgCaract img{
+    width: 60%;
+    height: auto;
+}
+
+/*Página Creador*/
+#ImgCreador{
+    text-align: center;
+}
+#ImgCreador img{
+    width: 30%;
+    height: auto;
+}
+.nombre{
+    text-align: center;
+}
